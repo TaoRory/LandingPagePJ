@@ -17,3 +17,63 @@
     outline: none;
     box-shadow: none;
 }
+
+.navbar {
+    background-color: #FFFCF2;
+}
+
+.video-section {
+    width: 100%;
+    height: 350px;
+    border: 2px solid #166041;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.batch-number {
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: #555;
+}
+
+.product-title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.product-detail {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.7rem;
+}
+
+.icon {
+    color: #00A63E;
+    background-color: #F5FFEC;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.cert-item {
+    padding: 10px 20px;
+    background-color: #F5FFEC;
+    border-radius: 20px;
+    color: #016730;
+    font-weight: bold;
+}
