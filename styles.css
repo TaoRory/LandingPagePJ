@@ -77,3 +77,119 @@
     color: #016730;
     font-weight: bold;
 }
+
+.box-container {}
+
+.box-container p {
+    margin-bottom: 0;
+    margin-left: 4px;
+}
+
+.box-container .box-date {
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    color: #727272;
+}
+
+.box-container .box-content {
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
+
+.box-container+.box-container {
+    margin-top: 16px;
+}
+
+.svg-col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.svg-placeholder {}
+
+.box {
+    padding: 10px 20px;
+    background-color: #3C2003;
+    color: white;
+    font-weight: 600;
+    border-radius: 24px;
+    text-align: center;
+    width: max-content;
+    font-size: 0.9rem;
+}
+
+.provider-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.provider-item {
+    display: flex;
+    padding: 10px;
+    gap: 16px;
+    align-items: center;
+}
+
+.provider-icon {
+    padding: 10px;
+    color: #00A63E;
+    background-color: #F5FFEC;
+    font-size: 1.5rem;
+}
+
+.provider-content h6 {
+    margin-bottom: 0;
+}
+
+.provider-content p {
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    color: #727272;
+}
+
+.footer-container {
+    background-color: #F6FFE6;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-footer {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+.footer-center {
+    width: 80px;
+    height: 80px;
+    background-color: #F6FFE6;
+    /* màu chủ đạo */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #166041;
+    font-size: 24px;
+    margin-top: -30px;
+    box-shadow: 0 -4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+.footer-icon {
+    font-size: 24px;
+    color: #166041;
+    text-decoration: none;
+}
