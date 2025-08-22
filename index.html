@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar Custom</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light rounded-bottom">
+        <div class="container-fluid d-flex align-items-center position-relative">
+
+            <!-- Nhóm menu + logo -->
+            <div class="d-flex align-items-center">
+                <!-- Nút menu -->
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <i class="fa-solid fa-bars" style="color: var(--bs-primary);"></i>
+                </button>
+                <!-- Logo -->
+                <a class="navbar-brand mb-0 h1" href="#">
+                    <img src="logo.svg" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+
+            <!-- Tiêu đề căn giữa -->
+            <span class="navbar-text text-primary position-absolute top-50 start-50 translate-middle">
+                Truy xuất nguồn gốc
+            </span>
+
+
+        </div>
+        <!-- Menu ẩn/hiện -->
+        <div class="collapse" id="menu">
+            <ul class="navbar-nav ms-auto p-2">
+                <li class="nav-item"><a class="nav-link text-primary" href="#">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="#">Giới thiệu</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="#">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
