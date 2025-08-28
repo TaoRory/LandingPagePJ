@@ -123,12 +123,12 @@
 .box::before {
     content: "";
     position: absolute;
-    left: -150px;
+    left: -160px;
     /* cách box một đoạn */
-    top: 30%;
+    top: 50%;
     transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 120px;
     /* link hình */
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -140,7 +140,7 @@
 .box::after {
     content: "";
     position: absolute;
-    left: -92px;
+    left: -84px;
     /* vị trí đường nối */
     top: 50%;
     transform: translateY(-50%);
@@ -155,22 +155,27 @@
 
 .box-container:nth-child(2) .box::before {
     background-image: url('./img/gd2.svg');
+    top: 20%
 }
 
 .box-container:nth-child(3) .box::before {
     background-image: url('./img/gd3.svg');
+    top: 10%;
 }
 
 .box-container:nth-child(4) .box::before {
     background-image: url('./img/gd4.svg');
+    top: -20%;
 }
 
 .box-container:nth-child(5) .box::before {
     background-image: url('./img/gd5.svg');
+    top: -45%;
 }
 
 .box-container:nth-child(6) .box::before {
     background-image: url('./img/gd6.svg');
+    top: 15%;
 }
 
 
